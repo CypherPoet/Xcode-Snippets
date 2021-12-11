@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rck</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Coding Keys
+extension &lt;#TYPE NAME#&gt; {
+    
+    enum CodingKeys: String, CodingKey {
+        case &lt;#PROP NAME#&gt; = "&lt;#KEY NAME#&gt;"
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>01B6CABF-4C6C-4DE0-88B4-52538476E342</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CodingKeys extension for a Decodable type</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CodingKeys extension</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

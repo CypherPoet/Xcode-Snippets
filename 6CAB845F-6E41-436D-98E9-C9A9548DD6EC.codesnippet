@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bfs</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@ScaledMetric(relativeTo: .body)
+private var baseFontSize: CGFloat = pointSize(for: .body)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6CAB845F-6E41-436D-98E9-C9A9548DD6EC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Intended to function alongsize a View.pointSize static function (See: CypherPoetSwiftUITypographyUtils)</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Scaled Metrict for Base Font Size</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
