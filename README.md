@@ -17,6 +17,8 @@ But what if we want to share these snippets across devices? That's where it help
 
 Simply download the files here, or clone the repo, and copy whichever `.codesnippet` file you want to use into the directory above.
 
+# Getting Started
+
 **Quick-Start Example:**
 
 ```zsh
@@ -30,3 +32,14 @@ cp -r ./snippets/**/*.codesnippet ~/Library/Developer/Xcode/UserData/CodeSnippet
 Those files are plain `plist` documents using a random UUID as a name and having the `.codesnippet` file extension.
 
 From there, feel free to use this repo as a starting point or reference for your own snippets! ⚡️
+
+
+# Developing
+
+**Find all current snippets on your current machine's Xcode**:
+
+```zsh
+open ~/Library/Developer/Xcode/UserData/CodeSnippets/
+```
+
+Then copy in any file you want to add to the repo.
