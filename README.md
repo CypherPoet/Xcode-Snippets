@@ -23,6 +23,10 @@ Simply download the files here, or clone the repo, and copy whichever `.codesnip
 cp -r ./snippets/**/*.codesnippet ~/Library/Developer/Xcode/UserData/CodeSnippets/
 ```
 
+```zsh
+cp -r ./snippets/**/*.codesnippet ~/Library/Developer/Xcode/UserData/CodeSnippets/
+```
+
 Those files are plain `plist` documents using a random UUID as a name and having the `.codesnippet` file extension.
 
 From there, feel free to use this repo as a starting point or reference for your own snippets! ⚡️
