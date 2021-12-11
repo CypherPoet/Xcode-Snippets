@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>exerror</string>
+	<string>ctbc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>extension &lt;#TYPE_NAME#&gt; {
-    
-    enum Error: Swift.Error {
-        case &lt;# Error Name #&gt;
+	<string>private var toolbarContent: some ToolbarContent {
+    Group {
+        ToolbarItem(placement: .navigationBarLeading) {
+        }
+        ToolbarItem(placement: .navigationBarTrailing) {
+        }
     }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9F98A3A7-DFE8-4217-869B-DFEC828940B3</string>
+	<string>520993B8-F78D-476B-8284-615F34D0EE14</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Extension of a type with an `Error` enumeration that conforms to `Swift.Error`</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Custom Error Type Extension</string>
+	<string>SwiftUI Computed Toolbar Content</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

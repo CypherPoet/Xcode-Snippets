@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>bfs</string>
+	<string>cvc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@ScaledMetric(relativeTo: .body)
-private var baseFontSize: CGFloat = pointSize(for: .body)</string>
+	<string>var &lt;#name#&gt;: some View {
+    &lt;#EmptyView()#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6CAB845F-6E41-436D-98E9-C9A9548DD6EC</string>
+	<string>0097120A-30EE-46C5-9A58-D2E469D4CBB3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Intended to function alongsize a View.pointSize static function (See: CypherPoetSwiftUITypographyUtils)</string>
+	<string>Computed View Content</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Scaled Metrict for Base Font Size</string>
+	<string>SwiftUI Computed View Content</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

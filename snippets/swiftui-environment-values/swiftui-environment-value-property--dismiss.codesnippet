@@ -3,28 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cftbc</string>
+	<string>evd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private var toolbarContent: some ToolbarContent {
-    Group {
-        ToolbarItem(placement: .cancellationAction) {
-        }
-        ToolbarItem(placement: .confirmationAction) {
-        }
-    }
-}</string>
+	<string>@Environment(\.dismiss)
+private var dismissView</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>981265B2-393C-44A6-83CA-238F3160F13F</string>
+	<string>1EF800E7-4966-437D-A322-1A41932360B9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Variable for the dismiss action</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Computed Form Toolbar Content</string>
+	<string>SwiftUI EnvironmentValue Property -- dismiss</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

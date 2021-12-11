@@ -3,34 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>exlerr</string>
+	<string>exerror</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>extension &lt;# Error Type Name #&gt;: LocalizedError {
+	<string>extension &lt;#TYPE_NAME#&gt; {
 
-    public var errorDescription: String? {
-        switch self {
-        }
+    enum Error: Swift.Error {
+        case &lt;# Error Name #&gt;
     }
-    
-    
-    public var recoverySuggestion: String? {
-        switch self {
-        }
-    }
-}
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B73A5A99-CF1D-454E-A53D-D803C5DC43EC</string>
+	<string>9F98A3A7-DFE8-4217-869B-DFEC828940B3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Extending a custom error type to adopt `LocalizedError`</string>
+	<string>Extension of a type with an `Error` enumeration that conforms to `Swift.Error`</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>LocalizedError Conformance extension</string>
+	<string>Custom Error Type Extension</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

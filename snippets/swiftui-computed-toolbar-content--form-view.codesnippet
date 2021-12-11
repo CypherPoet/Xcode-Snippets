@@ -3,23 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cvc</string>
+	<string>cftbc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>var &lt;#name#&gt;: some View {
-    &lt;#EmptyView()#&gt;
+	<string>private var toolbarContent: some ToolbarContent {
+    Group {
+        ToolbarItem(placement: .cancellationAction) {
+        }
+        ToolbarItem(placement: .confirmationAction) {
+        }
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0097120A-30EE-46C5-9A58-D2E469D4CBB3</string>
+	<string>981265B2-393C-44A6-83CA-238F3160F13F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Computed View Content</string>
+	<string>Computed `ToolbarContent` variable for common form view items.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Computed View Content</string>
+	<string>Computed Toolbar Content -- Form View</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

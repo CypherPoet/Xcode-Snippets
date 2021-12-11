@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>evd</string>
+	<string>emoc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@Environment(\.dismiss)
-private var dismissView</string>
+	<string>    @Environment(\.managedObjectContext)
+    private var managedObjectContext</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1EF800E7-4966-437D-A322-1A41932360B9</string>
+	<string>78BBDC2C-DCC9-4EB1-96BC-2F6D735C4C5E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Variable for the dismiss action</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SwiftUI Environment Value - dismiss</string>
+	<string>SwiftUI EnvironmentValue Property -- managedObjectContext</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

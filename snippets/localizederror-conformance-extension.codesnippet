@@ -3,22 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>emoc</string>
+	<string>exlerr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    @Environment(\.managedObjectContext)
-    private var managedObjectContext</string>
+	<string>extension &lt;# Error Type Name #&gt;: LocalizedError {
+
+    public var errorDescription: String? {
+        switch self {
+        }
+    }
+
+
+    public var recoverySuggestion: String? {
+        switch self {
+        }
+    }
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>78BBDC2C-DCC9-4EB1-96BC-2F6D735C4C5E</string>
+	<string>B73A5A99-CF1D-454E-A53D-D803C5DC43EC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Extending a custom error type to adopt `LocalizedError`</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>managedObjectContext Environment Property</string>
+	<string>LocalizedError Conformance extension</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

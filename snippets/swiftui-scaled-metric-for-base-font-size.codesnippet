@@ -3,28 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ctbc</string>
+	<string>bfs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private var toolbarContent: some ToolbarContent {
-    Group {
-        ToolbarItem(placement: .navigationBarLeading) {
-        }
-        ToolbarItem(placement: .navigationBarTrailing) {
-        }
-    }
-}</string>
+	<string>@ScaledMetric(relativeTo: .body)
+private var baseFontSize: CGFloat = pointSize(for: .body)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>520993B8-F78D-476B-8284-615F34D0EE14</string>
+	<string>6CAB845F-6E41-436D-98E9-C9A9548DD6EC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Intended to function alongsize a View.pointSize static function (See: CypherPoetSwiftUITypographyUtils)</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Computed Toolbar Content</string>
+	<string>Scaled Metric for Base Font Size</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
